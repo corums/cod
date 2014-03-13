@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 import java.lang.Comparable;
+import java.util.*;
 
 /**
  *
@@ -79,6 +80,8 @@ public class Ej191 {
     }
     public static void main(String[] args) {
       ArrayList <colegio> cole=new ArrayList<colegio>();
+      Map<String,colegio> dam12=new HashMap<>();
+      dam12.put("36001500b",new colegio("jose",5));
       Scanner objeto=new Scanner(System.in);
       int contador=0;
       String auxString="";
